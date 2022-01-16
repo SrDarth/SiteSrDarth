@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>CC-e - Sr Darth</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./vendor/chartist/css/chartist.min.css">
+  <link href="./vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+	<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+	<link rel="stylesheet" href="./vendor/pickadate/themes/default.css">
+  <link rel="stylesheet" href="./vendor/pickadate/themes/default.date.css">
+	<link href="./vendor/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+  <link href="./vendor/clockpicker/css/bootstrap-clockpicker.min.css" rel="stylesheet">
+  <link href="./vendor/jquery-asColorPicker/css/asColorPicker.min.css" rel="stylesheet">
+  <link href="./vendor/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+	<link rel="stylesheet" href="./vendor/toastr/css/toastr.min.css">
+  <style>
+  .black {
+    background: #000;
+  }
+  .fontblack {
+    color: #000;
+  }
+  textarea {
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    margin: 2px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.containerx {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    padding-top: 60%;
+}
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border: none;
+}
+  </style>
+</head>
+<body>
+
+<!-- Inicio Poster -->
+
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-12 p-3 black">
+    <div class="black text-white text-center">
+      <img src="./img/LOGO-SR.gif" width="300" height="300">
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Fim Poster -->
+
+<!-- Inicio Menu -->
+
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-10 black">
+    <button type="button" class="btn text-white">Inicio<span class="btn-icon-left fontblack"><ion-icon name="reorder-four-outline"></ion-icon></span></button>
+  </div>
+
+    <div class="col-sm-2 black">
+      <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown">Contato<span class="btn-icon-left fontblack"><ion-icon name="chatbox-ellipses-outline"></ion-icon></span></button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="https://wa.me/+5511997218020?text=Olá%0D%0AEncontrei%20o%20seu%20contato%20no%20site%20da%20*CRM%20Transporte%20Executivo*" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon> Whatsapp</a></li>
+        <li><a class="dropdown-item" href="#"><ion-icon name="mail-outline"></ion-icon> Email</a></li>
+      </ul>
+    </div>
+</div>
+</div>
+
+<!-- Fim Menu -->
+
+<!-- Inicio Conteudo -->
+
+  <div class="container-fluid">
+    <div class="row">
+
+  <div class="col-sm-12 mb-3 p-3">
+  
+  <center><h3>Indicação de sites para gerar a representação grafica da carta de correção</h3></center><br/>
+  O que é importante saber sobre a "Carta de correção" ?<br>
+  A Carta de Correção e disciplinada pelo parágrafo 1o-A do art. 7o do Convenio S/N, de 15 de dezembro de 1970 e pode ser utilizada para regularização de erro ocorrido na emissão de documento fiscal, desde que o erro não esteja relacionado com:<br>
+  I - as variáveis que determinam o valor do imposto tais como: base de cálculo, alíquota, diferença de preço, quantidade, valor da operação ou da prestação;<br>
+  II - a correção de dados cadastrais que implique mudança do remetente ou do destinatário;<br>
+  III - a data de emissão ou de saída.
+  <br>
+  <b>A representação gráfica da carta de correção não possue validade fiscal. A CC-e deve ser recebida e mantida em arquivo eletrônico XML e pode ser consultada através dos Portais das SEFAZ.</b><br><br>
+  <ul style="list-style-type: square;">
+    <li><a class="btn btn-outline-primary btn-xs" href="https://www.nfe.fazenda.gov.br/portal/consultaRecaptcha.aspx" target="_blank">Nfe Fazenda</a></li><br/>
+    <li><a class="btn btn-outline-primary btn-xs" href="https://www.webdanfe.com.br/danfe/index.html" target="_blank">WebDanfe</a></li><br/>
+    <li><a class="btn btn-outline-primary btn-xs" href="https://www.freenfe.com.br/leitor-de-xml-online/" target="_blank">Freenfe</a></li><br/>
+  </ul>
+  <h1>OU</h1>
+  <p>Faça o upload do arquivo <code>XML</code> da carta de correção clicando no botão <code>Escolher Arquivo</code> e depois em <code>GERAR CC-e</code></p>
+  <div class="containerx">
+  <iframe scrolling="no" class="responsive-iframe" src="https://srdarth.github.io/CCeFrame.html"></iframe>
+  </div>
+ 
+  </div>
+  
+  </div>
+</div>
+
+
+<!-- Fim Conteudo -->
+
+<!-- Inicio Footer -->
+
+<div class="mt-5 p-4 black text-white text-center">
+  <p>Sr Darth</p>
+</div>
+
+<!-- Fim Footer -->
+
+<script src="./vendor/global/global.min.js"></script>
+	<script src="./vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="./vendor/chart.js/Chart.bundle.min.js"></script>
+    <script src="./js/custom.min.js"></script>
+	<script src="./js/deznav-init.js"></script>
+	<!-- Apex Chart -->
+	<script src="./vendor/apexchart/apexchart.js"></script>
+    
+
+
+
+    <script src="./vendor/flot/jquery.flot.js"></script>
+    <script src="./vendor/flot/jquery.flot.pie.js"></script>
+    <script src="./vendor/flot/jquery.flot.resize.js"></script>
+    <script src="./vendor/flot-spline/jquery.flot.spline.min.js"></script>
+    <script src="./js/plugins-init/flot-init.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+      function download(){
+          var text = document.getElementById("blocodenotas").value;
+          text = text.replace(/\n/g, "\r\n");
+          var blob = new Blob([text], { type: "text/plain"});
+          var anchor = document.createElement("a");
+          anchor.download = "Minhas anotações" + document.getElementById("NTICKET").value;
+          anchor.href = window.URL.createObjectURL(blob);
+          anchor.target ="_blank";
+          anchor.style.display = "none";
+          document.body.appendChild(anchor);
+          anchor.click();
+          document.body.removeChild(anchor);
+       }
+      </script>
+</body>
+</html>
